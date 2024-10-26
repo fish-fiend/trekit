@@ -56,9 +56,9 @@ lcarsPage <- function (..., title = NULL, force_uppercase = TRUE,
 lcars_init <- function(force_uppercase = FALSE, label_uppercase = FALSE,
                        lcars_font_headers = TRUE, lcars_font_labels = TRUE,
                        lcars_font_text = TRUE){
-  lcars_font_headers <- if(lcars_font_headers) "Oswald" else "sans-serif"
-  lcars_font_labels <- if(lcars_font_labels) "Oswald" else "sans-serif"
-  lcars_font_text <- if(lcars_font_text) "Oswald" else "sans-serif"
+  lcars_font_headers <- if(lcars_font_headers) "Antonio" else "sans-serif"
+  lcars_font_labels <- if(lcars_font_labels) "Antonio" else "sans-serif"
+  lcars_font_text <- if(lcars_font_text) "Antonio" else "sans-serif"
   shiny::addResourcePath("svg", system.file("www/svg", package = "lcars"))
   shiny::tagList(
     shiny::includeCSS(system.file("www/css/lcars.css", package = "lcars")),
