@@ -2,13 +2,13 @@
 /* This accompanying sprites.svg file: Copyright 2018 Harry Thomas - hmt3design.com (ISC) https://github.com/hmt3design */
 /* Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies. */
 
-@import url(https://fonts.googleapis.com/css2?family=Antonio&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Antonio:wght@200&display=swap);
 
 body {
   background-color: black;
 }
 h1, h2, h3, h4, h5, h6, p, li, .text, label, code, .blocktext_white {
-  color: #ffffff;
+  color: #fcdc7e;
 }
 
 code {
